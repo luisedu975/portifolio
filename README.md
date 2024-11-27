@@ -13,6 +13,7 @@ JavaScript
 Google Fonts 
 
 📂 Estrutura do Projeto
+
 index.html : Página inicial do portfólio
 curriculo.html : Detalhes
 estilo.css: Arquivo de estilização do site.
