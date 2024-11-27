@@ -5,6 +5,7 @@ Bem-vindo ao meu portfólio! Aqui você encontrará meus projetos, habilidades e
 Este é o meu portfólio pessoal, onde compartilho detalhes sobre minha formação acadêmica, minhas experiências e os projetos que venho desenvolvendo. O site foi construído com foco em tecnologias web e funçãoPython e desenv
 
 🛠️ Tecnologias Utilizadas
+
 Python 
 HTML5 
 CSS3  
