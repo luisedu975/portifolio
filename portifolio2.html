@@ -4,14 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Luís Eduardo Bérard</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Link para Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-weight: 700;
+        }
+        section {
+            margin: 2em auto;
+            padding: 1em;
+            max-width: 800px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 0.5em;
+        }
+        ul, ol {
+            padding-left: 1.5em;
+        }
+        ul li, ol li {
+            margin: 0.5em 0;
+        }
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #4CAF50;
+            color: white;
+            position: relative;
+        }
+        footer p {
+            margin: 0;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #2e7d32;
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Portfolio - Luís Eduardo Bérard</h1>
-        <p>Este é o meu portfólio pessoal, desenvolvido para apresentar minhas habilidades como desenvolvedor Full Stack, com especialização em Python, JavaScript, HTML e CSS.</p>
+        <p>Este é o meu portfólio pessoal, desenvolvido para apresentar minhas habilidades como desenvolvedor Full Stack.</p>
     </header>
 
     <section>
@@ -57,5 +112,21 @@
         <p>&copy; 2024 Luís Eduardo Bérard. Todos os direitos reservados.</p>
     </footer>
 
+    <script>
+
+        window.onload = function() {
+            alert("Bem-vindo ao meu portfólio!");
+        };
+
+
+        const links = document.querySelectorAll('a');
+        links.forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault();
+                alert("Obrigado por visitar! O link será aberto em uma nova aba.");
+                window.open(this.href, '_blank');
+            });
+        });
+    </script>
 </body>
 </html>
